@@ -1,7 +1,14 @@
 package edu.iu.habahram.ducksservice.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(schema = "ducks")
 public final class Customer {
 
+    @Id
     private String username;
     private String password;
     private String email;

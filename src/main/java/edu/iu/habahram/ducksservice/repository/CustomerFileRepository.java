@@ -16,7 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
-@Repository
+//@Repository
 public class CustomerFileRepository {
     private static final Logger LOG =
             LoggerFactory.getLogger(CustomerFileRepository.class);
